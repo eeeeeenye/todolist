@@ -47,7 +47,7 @@ const DrawerMenu = ({ navigation }) => {
       );
 
       //날씨 API 사용 -> OpenWeather
-      const API_KEY = "cfc258c75e1da2149c33daffd07a911d";
+      const API_KEY = "";
       const result = await axios.get(
         `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
       );
